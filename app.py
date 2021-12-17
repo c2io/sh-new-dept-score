@@ -1,7 +1,7 @@
 from typing import Tuple
-import streamlit as st
 from dataclasses import dataclass
-from typing import Tuple
+
+import streamlit as st
 import pendulum as dt
 
 
