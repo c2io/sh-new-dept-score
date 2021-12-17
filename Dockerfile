@@ -10,4 +10,8 @@ RUN poetry install
 
 COPY app.py ./
 
+ENV STREAMLIT_SERVER_ADDRESS=0.0.0.0
+ENV STREAMLIT_SERVER_PORT=8080
+EXPOSE ${STREAMLIT_SERVER_PORT}
+
 CMD ["streamlit", "run", "app.py"]
