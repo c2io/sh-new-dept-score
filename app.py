@@ -1,4 +1,4 @@
-from typing import List, Tuple
+from typing import Tuple
 import streamlit as st
 from dataclasses import dataclass
 from typing import Tuple
